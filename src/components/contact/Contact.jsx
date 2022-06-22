@@ -31,7 +31,7 @@ export default function Contact() {
           <div className="contactline">
             <CallIcon />
             <span>
-              <a href="">Call me at +12242564225</a>
+              <a href="/">Call me at +12242564225</a>
             </span>
           </div>
           <div className="contactline">
