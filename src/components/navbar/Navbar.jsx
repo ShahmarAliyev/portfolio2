@@ -1,5 +1,4 @@
 import "./Navbar.scss";
-import { Link } from "react-router-dom";
 import PersonIcon from "@mui/icons-material/Person";
 import MailIcon from "@mui/icons-material/Mail";
 import AttachFileIcon from "@mui/icons-material/AttachFile";
