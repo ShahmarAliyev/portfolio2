@@ -72,6 +72,13 @@ export const reactPortfolio = [
     github: "https://github.com/ShahmarAliyev/my-finance",
     visit: "https://shahmaraliyev.github.io/my-finance/#/",
   },
+  {
+    id: 7,
+    title: "Map Pinner",
+    img: "../assets/mappinner.png",
+    github: "https://github.com/ShahmarAliyev/mappinner",
+    visit: "https://map-pinner.herokuapp.com/",
+  },
 ];
 
 export const fullStackPortfolio = [
@@ -95,6 +102,13 @@ export const fullStackPortfolio = [
     img: "../assets/nasa.png",
     github: "https://github.com/ShahmarAliyev/nasa-node",
     visit: "http://23.22.164.25:8000/",
+  },
+  {
+    id: 4,
+    title: "Map Pinner",
+    img: "../assets/mappinner.png",
+    github: "https://github.com/ShahmarAliyev/mappinner",
+    visit: "https://map-pinner.herokuapp.com/",
   },
 ];
 
@@ -172,5 +186,12 @@ export const allPortfolio = [
     img: "../assets/match.png",
     github: "https://github.com/ShahmarAliyev/memorygame",
     visit: "https://shahmaraliyev.github.io/memorygame/",
+  },
+  {
+    id: 9,
+    title: "Map Pinner",
+    img: "../assets/mappinner.png",
+    github: "https://github.com/ShahmarAliyev/mappinner",
+    visit: "https://map-pinner.herokuapp.com/",
   },
 ];
