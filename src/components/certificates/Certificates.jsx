@@ -8,22 +8,22 @@ export default function Works() {
       id: "1",
       icon: "./assets/mobile.png",
       title: "React & Redux",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      desc: `React Router, Firebase, Firestore, Styled Components, Redux, Redux-Saga, TypeScript, GraphQl, Testing, Webpack, Babel  `,
       img: "../assets/redux.png",
     },
     {
       id: "2",
       icon: "./assets/globe.png",
       title: "React & Firebase",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img: "../assets/nodecert.png",
+      desc: "React Hooks, React Reducers Firebase, Firestore",
+      img: "../assets/firebasereact.png",
     },
     {
       id: "3",
       icon: "../assets/writing.png",
       title: "NodeJS",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img: "../assets/firebasereact.png",
+      desc: "Node JS, Express, CI& CD, GraphQl, Docker, AWS: EC2, Mongo DB",
+      img: "../assets/nodecert.png",
     },
   ];
 
@@ -49,7 +49,7 @@ export default function Works() {
                     <img src={d.icon} alt="" />
                   </div>
                   <h2>{d.title}</h2>
-                  <p>{d.desc}</p>
+                  <b>Acquired Skills:</b> <p>{d.desc}</p>
                   <span>Projects</span>
                 </div>
               </div>
