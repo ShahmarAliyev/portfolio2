@@ -26,10 +26,10 @@ export default function Portfolio() {
       id: "mobile",
       title: "FullStack",
     },
-    {
-      id: "design",
-      title: "Games",
-    },
+    // {
+    //   id: "design",
+    //   title: "Games",
+    // },
     {
       id: "content",
       title: "Components",

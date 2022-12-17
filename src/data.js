@@ -1,11 +1,11 @@
 export const featuredPortfolio = [
-  {
-    id: 1,
-    title: "Social Media App",
-    img: "../assets/socialmedia.png",
-    github: "https://github.com/ShahmarAliyev/docosocial",
-    visit: "https://celebritysocial.herokuapp.com/",
-  },
+  // {
+  //   id: 1,
+  //   title: "Social Media App",
+  //   img: "../assets/socialmedia.png",
+  //   github: "https://github.com/ShahmarAliyev/docosocial",
+  //   visit: "https://celebritysocial.herokuapp.com/",
+  // },
   {
     id: 2,
     title: "E Commerce",
@@ -15,27 +15,27 @@ export const featuredPortfolio = [
   },
   {
     id: 3,
+    title: "Food Menu",
+    img: "../assets/food.png",
+    github: "https://github.com/ShahmarAliyev/nextjs-food",
+    visit: "https://sergiotacos.vercel.app/",
+  },
+  {
+    id: 4,
     title: "Project Management",
     img: "../assets/projectmanagement.png",
     github: "https://github.com/ShahmarAliyev/project-management",
     visit: "https://project-management-3c034.web.app/",
-  },
-  {
-    id: 4,
-    title: "E Commerce",
-    img: "../assets/ecommerce2.png",
-    github: "https://github.com/ShahmarAliyev/MERN-ECommerce",
-    visit: "https://boardmern.herokuapp.com/",
   },
 ];
 
 export const reactPortfolio = [
   {
     id: 1,
-    title: "Social Media App",
-    img: "../assets/socialmedia.png",
-    github: "https://github.com/ShahmarAliyev/docosocial",
-    visit: "https://celebritysocial.herokuapp.com/",
+    title: "Food Menu",
+    img: "../assets/food.png",
+    github: "https://github.com/ShahmarAliyev/nextjs-food",
+    visit: "https://sergiotacos.vercel.app/",
   },
   {
     id: 2,
@@ -51,13 +51,7 @@ export const reactPortfolio = [
     github: "https://github.com/ShahmarAliyev/project-management",
     visit: "https://project-management-3c034.web.app/",
   },
-  {
-    id: 4,
-    title: "E Commerce",
-    img: "../assets/ecommerce2.png",
-    github: "https://github.com/ShahmarAliyev/MERN-ECommerce",
-    visit: "https://boardmern.herokuapp.com/",
-  },
+
   {
     id: 5,
     title: "Recipe Directory",
@@ -74,10 +68,10 @@ export const reactPortfolio = [
   },
   {
     id: 7,
-    title: "Map Pinner",
-    img: "../assets/mappinner.png",
-    github: "https://github.com/ShahmarAliyev/mappinner",
-    visit: "https://map-pinner.herokuapp.com/",
+    title: "Matching Game",
+    img: "../assets/match.png",
+    github: "https://github.com/ShahmarAliyev/memorygame",
+    visit: "https://shahmaraliyev.github.io/memorygame/",
   },
 ];
 
@@ -89,13 +83,7 @@ export const fullStackPortfolio = [
     github: "https://github.com/ShahmarAliyev/docosocial",
     visit: "https://celebritysocial.herokuapp.com/",
   },
-  {
-    id: 2,
-    title: "E Commerce",
-    img: "../assets/ecommerce2.png",
-    github: "https://github.com/ShahmarAliyev/MERN-ECommerce",
-    visit: "https://boardmern.herokuapp.com/",
-  },
+
   {
     id: 3,
     title: "Nasa Flights",
@@ -103,23 +91,16 @@ export const fullStackPortfolio = [
     github: "https://github.com/ShahmarAliyev/nasa-node",
     visit: "http://23.22.164.25:8000/",
   },
-  {
-    id: 4,
-    title: "Map Pinner",
-    img: "../assets/mappinner.png",
-    github: "https://github.com/ShahmarAliyev/mappinner",
-    visit: "https://map-pinner.herokuapp.com/",
-  },
 ];
 
 export const gamesPortfolio = [
-  {
-    id: 1,
-    title: "Matching Game",
-    img: "../assets/match.png",
-    github: "https://github.com/ShahmarAliyev/memorygame",
-    visit: "https://shahmaraliyev.github.io/memorygame/",
-  },
+  // {
+  //   id: 1,
+  //   title: "Matching Game",
+  //   img: "../assets/match.png",
+  //   github: "https://github.com/ShahmarAliyev/memorygame",
+  //   visit: "https://shahmaraliyev.github.io/memorygame/",
+  // },
 ];
 
 export const componentsPortfolio = [
@@ -131,13 +112,6 @@ export const componentsPortfolio = [
 ];
 
 export const allPortfolio = [
-  {
-    id: 1,
-    title: "Social Media App",
-    img: "../assets/socialmedia.png",
-    github: "https://github.com/ShahmarAliyev/docosocial",
-    visit: "https://celebritysocial.herokuapp.com/",
-  },
   {
     id: 2,
     title: "E Commerce",
@@ -154,10 +128,10 @@ export const allPortfolio = [
   },
   {
     id: 4,
-    title: "E Commerce",
-    img: "../assets/ecommerce2.png",
-    github: "https://github.com/ShahmarAliyev/MERN-ECommerce",
-    visit: "https://boardmern.herokuapp.com/",
+    title: "Food Menu",
+    img: "../assets/food.png",
+    github: "https://github.com/ShahmarAliyev/nextjs-food",
+    visit: "https://sergiotacos.vercel.app/",
   },
   {
     id: 5,
@@ -186,12 +160,5 @@ export const allPortfolio = [
     img: "../assets/match.png",
     github: "https://github.com/ShahmarAliyev/memorygame",
     visit: "https://shahmaraliyev.github.io/memorygame/",
-  },
-  {
-    id: 9,
-    title: "Map Pinner",
-    img: "../assets/mappinner.png",
-    github: "https://github.com/ShahmarAliyev/mappinner",
-    visit: "https://map-pinner.herokuapp.com/",
   },
 ];
