@@ -25,7 +25,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
           <div className="itemContainer">
             <AttachFileIcon className="icon" />
             <span>
-              <a href="https://drive.google.com/file/d/1LH82bHO373g0WIDob64mr-5ZWUKQ58fy/view">
+              <a href="https://drive.google.com/file/d/1BaaBvWnbwZUR0YlcC32umc25KgLeIXuF/view?usp=sharing">
                 See Resume
               </a>
             </span>
