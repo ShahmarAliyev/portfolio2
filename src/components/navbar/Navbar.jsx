@@ -17,15 +17,15 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
           <div className="itemContainer">
             <MailIcon className="icon" />
             <span>
-              <a href="https://mail.google.com/mail/u/0/?source=mailto&to=saliyev2019@gmail.com&fs=1&tf=cm">
-                shahmarusa@gmail.com
+              <a href="https://mail.google.com/mail/u/0/?source=mailto&to=shahmar.aliyevv@gmail.com&fs=1&tf=cm">
+                shahmar.aliyevv@gmail.com
               </a>
             </span>
           </div>
           <div className="itemContainer">
             <AttachFileIcon className="icon" />
             <span>
-              <a href="https://drive.google.com/file/d/1BaaBvWnbwZUR0YlcC32umc25KgLeIXuF/view?usp=sharing">
+              <a href="https://drive.google.com/file/d/1tiQlBq0p_IVtcLhuHF1iqbK-_3_SbTzK/view?usp=sharing">
                 See Resume
               </a>
             </span>
