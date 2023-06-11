@@ -1,7 +1,7 @@
-@import "../../index.scss";
+@import '../../index.scss';
 
 .menu {
-  width: 300px;
+  width: 200px;
   height: 100vh;
   background-color: $mainColor;
   position: fixed;
@@ -11,7 +11,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
+  margin-top: 50px;
   transition: all 1s ease;
 
   &.active {
@@ -22,7 +23,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 300;
     color: white;
     width: 60%;

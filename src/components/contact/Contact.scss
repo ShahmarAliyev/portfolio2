@@ -1,23 +1,25 @@
-@import "../../index.scss";
+@import '../../index.scss';
 
 .contact {
   background-color: white;
   display: flex;
-
+  align-items: center;
+  justify-content: space-around;
   @include mobile {
     flex-direction: column;
   }
 
   .left {
-    flex: 1;
+    // flex: 1;
     overflow: hidden;
 
     img {
-      height: 100%;
+      height: 600px;
+      width: 600px;
     }
   }
   .right {
-    flex: 1;
+    // flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;

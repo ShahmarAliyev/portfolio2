@@ -1,14 +1,17 @@
-@import "../../index.scss";
+@import '../../index.scss';
 
 .portfolio {
   background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 100px;
 
   h1 {
     font-size: 50px;
     overflow: hidden;
+    font-weight: normal;
+    color: $mainColor;
     @include mobile {
       font-size: 20px;
     }

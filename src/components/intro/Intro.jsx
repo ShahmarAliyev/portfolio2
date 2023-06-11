@@ -1,6 +1,6 @@
-import "./Intro.scss";
-import { init } from "ityped";
-import { useEffect, useRef } from "react";
+import './Intro.scss';
+import { init } from 'ityped';
+import { useEffect, useRef } from 'react';
 
 export default function Intro() {
   const textRef = useRef();
@@ -10,27 +10,26 @@ export default function Intro() {
       showCursor: true,
       backDelay: 2000,
       backSpeed: 40,
-      strings: ["ReactJS", "FullStack"],
+      strings: ['Software'],
     });
   }, []);
 
   return (
-    <div className="intro" id="intro">
-      <div className="left">
-        <div className="imgContainer">
-          <img src="assets/image.jpg" alt="" />
+    <div className='intro' id='intro'>
+      <div className='top'>
+        <div className='imgContainer'>
+          <img src='assets/image.jpg' alt='' />
         </div>
       </div>
-      <div className="right">
-        <div className="wrapper">
-          <h2>Hi There, I'm</h2>
+      <div className='bottom'>
+        <div className='wrapper'>
           <h1>Shahmar ALiyev </h1>
           <h3>
             <span ref={textRef}></span> Developer
           </h3>
         </div>
-        <a href="#portfolio">
-          <img src="../assets/down.png" alt="" />
+        <a href='#portfolio'>
+          <img src='../assets/down.png' alt='' />
         </a>
       </div>
     </div>

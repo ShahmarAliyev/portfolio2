@@ -1,42 +1,43 @@
-@import "../../index.scss";
+@import '../../index.scss';
 
 .intro {
   background-color: white;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 
   @include mobile {
     flex-direction: column;
     align-items: center;
   }
 
-  .left {
-    flex: 0.5;
+  .top {
+    // flex: 0.5;
     overflow: hidden;
 
     .imgContainer {
-      width: 625px;
-      height: 625px;
-      background-color: crimson;
-      border-radius: 50%;
+      width: 250px;
+      height: 250px;
+      border-radius: 5px;
       display: flex;
       align-items: flex-end;
       justify-content: center;
       float: right;
-
       @include mobile {
         align-items: flex-start;
+        border-radius: 5px;
       }
-
       img {
         height: 100%;
-
         @include mobile {
           height: 70%;
+          border-radius: 5px;
         }
       }
     }
   }
-  .right {
+  .bottom {
     flex: 0.5;
     position: relative;
 
@@ -56,7 +57,7 @@
       h1 {
         font-size: 60px;
         margin: 10px 0;
-
+        font-weight: normal;
         @include mobile {
           font-size: 40px;
         }
@@ -73,7 +74,8 @@
 
         span {
           font-size: inherit;
-          color: crimson;
+          color: rgb(80, 90, 86);
+          font-weight: 400;
         }
 
         .ityped-cursor {
